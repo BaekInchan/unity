@@ -447,8 +447,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7920516016845514036}
+  - component: {fileID: -3993237563147248276}
   m_Layer: 0
-  m_Name: 'among us '
+  m_Name: among us
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -476,6 +477,19 @@ Transform:
   - {fileID: 2699361458230190404}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-3993237563147248276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4466061655499748991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30beb1f4986a53941b6483179cce6289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
 --- !u!1 &5616384999054655733
 GameObject:
   m_ObjectHideFlags: 0
